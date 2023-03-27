@@ -6,9 +6,9 @@
 \book {
   \bookpart {
     \section "1" "Kyrie"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
-    \score { %\articulate
+    \score {
       <<
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
@@ -79,7 +79,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 90 } % 75 – 60 – 110
     }
   }
 }
