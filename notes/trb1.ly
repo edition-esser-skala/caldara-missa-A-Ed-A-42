@@ -42,3 +42,70 @@ KyrieTromboneI = {
     g r r2\fermata \bar "|." %77 finis
   }
 }
+
+GloriaTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoGloria
+    R1
+    r8 g'\fE g8. g16 g4 r
+    R1*2
+    r8 g\fE g g g4 r %5
+    g8 g g g16 g a4 r
+    a8 a g8. g16 f4 r
+    r8 a16 g f g e f d4 e
+    f8 e d8. d16 e4 r
+    R1*6 %15
+    r2 g8\fE g16 g g8 g
+    f f e8. e16 d4 r
+    g8 g16 g g8 g f f g8. g16
+    f4 r \once \tieDashed f2~
+    f e8 f f e %20
+    f4 f8 a16 a g8 g g g
+    g g r4 a8 g16 f f8 g16 a \noBreak
+    g2 g4 r\fermata \bar "||"
+    \time 3/4 \tempoQuiTollis \newSpacingSection
+      e2.\fE \noBreak
+    a %25
+    gis
+    fis
+    e4 e r
+    e2 a4
+    g!2. %30
+    g4 fis2
+    g4 r r
+    R2.*3 %35
+    g4 g2~
+    g4 fis8 e fis4
+    g2.
+    a
+    g2 r4 %40
+    R2.*10 %50
+    a2.\fE
+    a4 g f
+    g g g
+    g fis8 e fis4
+    g2. %55
+    a4 g2
+    g2. \noBreak
+    g\fermata \bar "||"
+    \time 4/4 \tempoQuoniam \newSpacingSection
+    R1*16 %74
+    r8 g\fE g g f g g8. g16 %75
+    g4 r r2
+    r8 c, g' g16 g e8 e a16 e a g
+    fis8 g4 fis8 g g e e
+    e e f4 f8 e d4
+    e e d c8 d %80
+    d4 e c f
+    d g8 f e4 r8 a
+    gis4 gis8 gis a e a4~
+    a8 g g4. f8 f4
+    e2 e4 e %85
+    f8 f g16 d g f e8 g4 fis8
+    g4 r8 h, e4 c8 c
+    g'16 d g f e8 g a4 g
+    g2 g4. f16 e
+    d4 g g r\fermata \bar "|." %90 finis
+  }
+}

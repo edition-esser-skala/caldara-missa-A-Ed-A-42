@@ -82,3 +82,97 @@ KyrieViolinoI = {
     c4 r r2\fermata \bar "|." %77 finis
   }
 }
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    e'8\pE e r e r f r a
+    g,, h''\fE c4 h r8 c\pE
+    r c r h r h r a
+    \kneeBeam g,, g'' g fis g16 d,\fE c d h c a h
+    g8 d'' d d e16 g, f g e f d e %5
+    c8 g'' g g a16 c, b c a b g a
+    f8 a' g g f16 a, g a f g e f
+    d8 f'16 e d e c! d h8 g' r g
+    f16 g e f d4 c16 e, d e c d h c
+    a4 r r2 %10
+    R1
+    r2 r16 e' d e c d h c
+    a4 r r2
+    r16 g''\pE f? g e4 r16 e d e c4
+    r16 h a h fis4 r8 e' e dis %15
+    e16 h\fE a h g a fis g e8 g' g g
+    f! f e8. d32 e d16 d, c d h c a h
+    g8 g'' g g f f g g
+    f16 c b c a b g a f8 c' c c~
+    c f, b f' e f4 e8 %20
+    f f f f f e16 d e4
+    d c8 d16 e a,4. a'8 \noBreak
+    h c4 h8 c4 r\fermata \bar "||"
+    \time 3/4 \tempoQuiTollis \newSpacingSection
+      e,2.~\fE \noBreak
+    e4 d8 c d4 %25
+    e e, e'
+    fis fis fis
+    e^\critnote e f
+    e8 e e e e e
+    e e e e e e %30
+    e e e e dis dis
+    e e, g h g e
+    a, a' cis e a a,
+    f a d f a a,
+    g, g' h d g d %35
+    g, c e4 d
+    c2.
+    h8 g h d g d
+    es4 es es
+    es d8 g g g %40
+    c c g c e,! g
+    c, e\p e e e e
+    r e e e e e
+    d d, f a f d
+    r d' d d d d %45
+    c g' g g f4
+    f f e
+    f8 f,\fE a c f f,
+    e c' e g c e,
+    a,, a' cis e g^\critnote a, %50
+    f' a, d f a4~
+    a g f
+    e e d
+    c2.
+    d8 h g d g,4 %55
+    a'' h c
+    c c h \noBreak
+    c2.\fermata \bar "||"
+    \time 4/4 \tempoQuoniam \newSpacingSection R1*5 %63
+    r2 r16 g16\fE f g e8 c'
+    \tuplet 3/2 8 { \sbOn c16 h a h a g } a4 g8 \tuplet 3/2 8 { c,16 h a h a g a g fis \sbOff } %65
+    g4 r r2
+    r4 r8 d'16\pE c h8 a16 g a4\trill
+    g r r r8 d'16 c
+    h a g8 a4\trill g r
+    r2 r8 d d'4 %70
+    c r r2
+    c'4.\fE h8 c4 r8 c,
+    c c c h r16 c h c a8 f'~
+    \sbOn \tuplet 3/2 8 { f16 e d e d c } d4\trill c8 \tuplet 3/2 8 { a16 g f g f e f e d } \sbOff
+    e8. e'32 f g8. g16 f8 d' c4\trill %75
+    h8 g, c c a a d16 a d c
+    h8 c4 h8 c4 r8 \once \tieDashed c~
+    c16 d h c a4 h8 h c c
+    c c a a g c d g,
+    g4 r r2 %80
+    r8 g c c a a d16 a d c
+    h8 c16 d e8 d c h a4
+    h r8 h a e' d4~
+    d c4. c8 d4
+    gis,8 a4 gis8 a4 r8 \once \tieDashed a~ %85
+    a a g4 g r
+    r8 d' g g e e f16 c f e
+    d4 c8 e f4. e8
+    d e d4. c16 h c8 d16 e
+    d2\trill e4 r\fermata \bar "|." %90 finis
+  }
+}
