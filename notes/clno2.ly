@@ -104,3 +104,80 @@ GloriaClarinoII = {
     c16 g e c g'4 e r\fermata \bar "|." %90 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    e'4\fE d8 d e d e4
+    d8 e c4 d8 d d4
+    d r r r8 c
+    c d16 c d4. c8 c f16 e
+    d8 e d4 e r8 g, %5
+    e4 r r2
+    R1*5 %11
+    r2 r4 r8 d'\fE
+    c e d d e d c e
+    c4 r8 c g4 r8 c
+    c b g c, c4 r8 c %15
+    c4 r r8 d' c d
+    c4 r r2
+    d4 r r8 d d d
+    c4 r r8 c c c
+    c4 r r2 %20
+    r r4 r8 c~ \noBreak
+    c g16 c g e g8 e2\fermata \bar "||"
+    \tempoEtIncarnatus R1*14 \noBreak %36
+    R1\fermata \bar "||"
+    \tempoEtResurrexit e'8\fE e c e c4 d8 d \noBreak
+    d d d4 r8 d d d
+    c16 d e d d4 e r8 d %40
+    e d e e e d g, g
+    c4 r8 e d d d4
+    d r r2
+    e4 r r8 c c c
+    c e c e c4 d %45
+    d g, d'~ d16 e d e
+    c d e d d4 e r
+    e\pE r e r
+    R1*9 %57
+    e4\fE r r d
+    e r r e
+    R1*6 %65
+    r2 r8 d\fE d d
+    d4. c8 g4 c8 c
+    c c c c c c c c \noBreak
+    c2 g\fermata \bar "||"
+    \time 2/2 \tempoEtVitam \newSpacingSection R1*6 %75
+    R1
+    g2 r4 d'
+    c2. g4
+    e2 r
+    R1*2 %81
+    c'2 c,
+    g' r
+    c1
+    g4 d' d2 %85
+    g, r
+    R1*2
+    e2 r
+    r e %90
+    e r
+    R1*5 %96
+    r4 c' d2~
+    d c~
+    c4 d2 d4
+    g,2 r %100
+    R1*3
+    R1
+    r4 d'2 c4 %105
+    g c, g'2
+    c r
+    r4 g e'2
+    c d~
+    d e %110
+    d1~
+    d
+    c\breve*1/2\fermata \bar "||" %113 finis
+  }
+}

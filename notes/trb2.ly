@@ -109,3 +109,98 @@ GloriaTromboneII = {
     c8 h16 a h4 c r\fermata \bar "|." %90 finis
   }
 }
+
+CredoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoCredo
+    c4\fE h8 h c h c4
+    h c8 c d d16 d d4
+    d d8 d c c16 c c8. c16
+    c4 d d8 e f4
+    d8 e d8. d16 e4 r %5
+    R1*7 %12
+    e8.\fE e16 h4 c8 h c e
+    c4 h8 c c h c4
+    c8 d16 d c8. c16 c4 r %15
+    r8 a h! cis d8. d16 c8 d
+    c c c4 c es
+    d8 d h g f!2
+    e4 r r8 c' c4
+    c r8 c f e d c %20
+    h a g f e4 r8 f' \noBreak
+    d2 e\fermata \bar "||"
+    \key c \dorian \tempoEtIncarnatus
+      r2 r8 es\fE es es \noBreak
+    es1
+    f2 es4. es8 %25
+    d4 d8 d16 d d2
+    c4 c8 g g g g4
+    g8 c c c b!2
+    a4. a8 g2
+    R1*7 \noBreak %36
+    R1\fermata \bar "||"
+    \key c \major \tempoEtResurrexit R1*2
+    r2 r8 c\fE d d %40
+    c h c4 c8 h r h
+    c4 c c8 h a4
+    h r h8 g h4
+    c r r8 c c d
+    c4 c8 c c4 a %45
+    h h8 h16 h d4~ d16 e d e
+    c h c4 h8 c4 r
+    R1*2
+    d4\fE d8 c h! c r4 %50
+    R1*7 %57
+    c4\fE d8 c c h r h
+    c c d c4 h8 r4
+    a4 a8 a16^\critnote a g8 g g4 %60
+    g r r2
+    R1*5 %66
+    f'4\fE f8 e d4 e8 e
+    c4 c8 c c4. f8 \noBreak
+    es2 d\fermata \bar "||"
+    \time 2/2 \tempoEtVitam \newSpacingSection R1*3 %72
+    r4 g, e'2
+    fis, c'4 c
+    h g8 g a2 %75
+    g r4 f
+    g g a h
+    c2. h4
+    c2 r
+    r4 d a a %80
+    h e d2
+    c r4 c
+    g2 f4 f
+    g e'2 \once \tieDashed d4~
+    d8 c h4 a2 %85
+    h4 d e e
+    c c d4. c8
+    h2 r
+    r4 e h2
+    c4 f e h %90
+    c2 a
+    h c4 c
+    h-\critnote h a a8 a
+    h1
+    h2 r %95
+    r r4 e
+    c c d d8 d
+    h2 c4 b
+    a2 r
+    r4 g e'2 %100
+    c4 c d d
+    c c a2
+    e'4 a, d2
+    e4 f! f,2
+    g1~ %105
+    g
+    g2 r
+    r4 g e' e
+    d4. d8 d2
+    d e %110
+    d1~
+    d2. f4
+    e\breve*1/2\fermata \bar "|." %113 finis
+  }
+}

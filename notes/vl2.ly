@@ -176,3 +176,112 @@ GloriaViolinoII = {
     d2\trill e4 r\fermata \bar "|." %90 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    e'4\fE d8 d e d e4
+    d8 e a4. g4 fis8
+    g4 g,8 a16 h c d e f g8 b,
+    a c f4. e8 d c
+    g' g16 a d,4 e8 c f,16 e d8 %5
+    e4 r r2
+    R1*2
+    r4 r16 c'\pE h c a gis gis8~ gis16 a a8
+    gis4 r r2 %10
+    r4 r8 e'~ e16 d d8~ d16 c c8~
+    c16 h h c~ c h g8-\critnote c c, f16 e d8
+    e\fE e' d4 e8 d c e
+    c c d e e d c b
+    a g g4 f8 c b16-\critnote a g8 %15
+    a8 a' h cis d d c d
+    c c c c c c es c
+    h4 r r8 d d g,
+    g g' e c b4. g'8
+    f c f e d c h a %20
+    g d' c h c g' c,4~ \noBreak
+    c8 h16 a h4 c2\fermata \bar "||"
+    \key c \dorian \tempoEtIncarnatus es,8\fE es es es es4 r \noBreak
+    r8 c' c c r c c c
+    r c c c r c c c %25
+    r h h h r as as as
+    r g g g r f f f
+    r es es es r e e g
+    r g fis fis g b b b
+    r g g fis g d g,4 %30
+    R1*6 \noBreak %36
+    R1\fermata \bar "||"
+    \key c \major \tempoEtResurrexit e''8\fE g4 e8 c f a fis \noBreak
+    g h,16 d g8 h,16 d d4~ d16 e d e
+    c d e d d4 e8 c g g' %40
+    e d e d16 c c8 h h g'~
+    g e4 e8 a g4 fis8
+    g4 d8 d g, h d f
+    e c e4 f8 f f4
+    e8 g4 e8 c f a fis %45
+    d h16 d g8 h,16 c d4~ d16 e d e
+    c d e d d4 e r
+    e\pE r e r
+    e, r r2
+    R1*3 %52
+    r8 c' fis, e dis4 e8 e'
+    dis e4 dis8 e4 r8 dis
+    e4 r8 h c4 r8 d %55
+    h4 r8 d, e f a, gis
+    a16 c e a a,4 r2
+    c'8 c d c c h g16 h d g
+    c,8 c d c c h c8. e16
+    a,8. a16 d4 h8 c4 h8 %60
+    c4 g8\p e r4 e8 g
+    r4 a8 a, r4 f'8 d
+    r d c g a4 r
+    R1*3 %66
+    d'8\fE d4 c8 h4 c16 e g c
+    c,8 c4 b8 a c c c \noBreak
+    c2 h\fermata \bar "||"
+    \time 2/2 \tempoEtVitam \newSpacingSection R1 \noBreak %70
+    r4 g, a h
+    c2. h4
+    c2 r
+    R1*2 %75
+    c2 a'
+    h, f'
+    e4 c d2
+    c r4 c
+    d d e fis %80
+    g2. f4~
+    f e8 d c2
+    d c4 d
+    e4. f8 g4 a
+    d,1 %85
+    d2 g
+    f4 g a h
+    gis2 a
+    gis r4 h~
+    h a2 gis4 %90
+    a2 r4 a
+    e e e e
+    fis2 e4 fis
+    g2 fis
+    e r4 a %95
+    f2 g
+    e f
+    d r
+    r4 c a'2
+    h,! g' %100
+    e4 f d g~
+    g e d a'
+    g a g2
+    c, f~
+    f e %105
+    d4 e d2
+    e4 c a'2
+    h, g'
+    a a
+    g1~ %110
+    g~
+    g
+    g\breve*1/2\fermata \bar "|." %113 finis
+  }
+}

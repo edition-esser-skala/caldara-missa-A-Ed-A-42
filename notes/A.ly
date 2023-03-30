@@ -239,3 +239,210 @@ GloriaAltoLyrics = \lyricmode {
   a -- men, a -- _
   _ _ men. %90 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr g'4\fE^\tutti g8 g g g g4
+    g8 g a a a^\critnote g16 g g8([ fis)]
+    g4 g8 g g g16 g g8. g16
+    a4 a8 a g4 a
+    g4. g8 g4 r %5
+    R1*4
+    r8 \mvTr e\pE^\solo a e f f d g16 f %10
+    f8 e16 e c8 c d d16 d e8 e16([ f)]
+    g8([ c, g' g,)] c4 r
+    \mvTr g'8.\fE^\tutti g16 g8 g g g g g
+    a g f g g g g g
+    f f16 f f8 e f4 r %15
+    r8 f g g f a a g
+    g g g g a a16 a a4
+    g r r8 g g4
+    g r r8 g g([ c,)]
+    c4 r r r8 a' %20
+    d,4( e8[ f)] g4 r8 a \noBreak
+    g2 g\fermata \bar "||"
+    \key c \dorian \tempoEtIncarnatus
+      r2 r8 \mvTr g\fE^\tutti g g \noBreak
+    g2 as~
+    as a4. a8 %25
+    g g g g16 g as2
+    g4 es8 es d d d8. d16
+    c8 es es es e2(
+    d4.) d8 d2
+    R1 %30
+    r2 \mvTr g8.\pE^\solo g16 g8 f!
+    es8. es16 e8 e f4.( es8)
+    des4 d es8. es16 es8 es
+    es4( d) es g8[ f16 es]
+    f4. es16[ d] es4. d16[( c]) %35
+    d4. d8 es4. es8 \noBreak
+    d1\fermata \bar "||"
+    \key c \major \tempoEtResurrexit R1*2
+    r2 r8 \mvTr g\fE^\tutti g g %40
+    g g g g16 g g8 g r g
+    g4 a8 a a( g4 fis8)
+    g4 r r g8 g
+    g16[( e g a] b8[ g)] a a a([ g)]
+    g4 g8 c, a'2 %45
+    g r8 a g g16 g
+    g2 g4 r
+    R1*2
+    \mvTr f8\fE^\tuttiE f f e d e r4 %50
+    r8 a\pE dis,8. dis16 e4 r
+    R1*6 %57
+    \mvTr g8\fE^\tutti c a a g g r g
+    g c, a' a^\critnote g g r4
+    f8 c f f16 f f8 e d4 %60
+    e r r2
+    R1
+    r2 r8 \mvTr a\pE^\soloE g8. g16
+    f8 f f f f e a a
+    b a b g a4. a8 %65
+    g([ f16 g] e4) d r
+    \mvTr a'8\fE^\tutti a g4 g g8 g
+    g g g g f4. a8 \noBreak
+    a2 g\fermata \bar "||"
+    \time 2/2 \tempoEtVitam \newSpacingSection R1*6 %75
+    c,2 a'
+    h,4 h f' f
+    e c8 c d2
+    c r4 c
+    d d e fis8 fis %80
+    g2. f4~
+    f e8[ d] c2
+    d c4 d
+    e4. f8 g4 a
+    d,1 %85
+    d2 g
+    f4 g a h
+    gis2 a
+    gis r4 h~
+    h a2 gis4 %90
+    a2 r4 a
+    e e e e8 e
+    fis2 e4 fis
+    g2 fis
+    e r4 a %95
+    f f g g8 g
+    e2( f)
+    d r
+    r4 c a'2
+    h,!4 h g' g %100
+    e f8 f d4 g~
+    g e d a'
+    g a g g8 g
+    c,2 f~
+    f e %105
+    d4 e d2
+    e4 c a'2
+    h,4 h g' g
+    a a a2
+    g1~ %110
+    g~
+    g
+    g\breve*1/2\fermata \bar "|." %113 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten --
+  tem, fa -- cto -- rem coe -- li et ter --
+  rae, vi -- si -- bi -- li -- um o -- mni --
+  um et in -- vi -- si --
+  bi -- li -- um. %5
+
+  De -- um de De -- o, lu -- men de %10
+  lu -- mi -- ne, De -- um ve -- rum de De -- o __
+  ve -- ro.
+  Ge -- ni -- tum non fa -- ctum, con -- sub --
+  stan -- ti -- a -- lem Pa -- tri, per quem
+  o -- mni -- a fa -- cta sunt. %15
+  Qui pro -- pter nos, nos ho -- mi --
+  nes et pro -- pter no -- stram sa -- lu --
+  tem de -- scen --
+  dit, de -- scen --
+  dit, de -- %20
+  scen -- dit de
+  coe -- lis.
+  Et in -- car --
+  na -- _
+  _ tus %25
+  est de Spi -- ri -- tu San --
+  cto ex Ma -- ri -- a Vir -- gi --
+  ne, et ho -- mo fa --
+  ctus est.
+  %30
+  Cru -- ci -- fi -- xus
+  e -- ti -- am pro no --
+  bis sub Pon -- ti -- o Pi --
+  la -- to, pas --
+  _ _ _ sus %35
+  et se -- pul -- tus
+  est.
+
+  Et re -- sur -- %40
+  re -- xit ter -- ti -- a di -- e se --
+  cun -- dum Scri -- ptu --
+  ras, et a --
+  scen -- dit in coe --
+  lum, %45
+  se -- det, se --
+  det ad dex -- te -- ram
+  Pa -- tris.
+
+  Iu -- di -- ca -- re vi -- vos %50
+  et mor -- tu -- os.
+
+  Si -- mul ad -- o -- ra -- tur et %58
+  con -- glo -- ri -- fi -- ca -- tur:
+  qui lo -- cu -- tus est per Pro -- phe -- %60
+  tas.
+
+  Con -- fi -- te --
+  or u -- num ba -- ptis -- ma in re --
+  mis -- si -- o -- nem pec -- ca -- %65
+  to -- rum.
+  Et ex -- pe -- cto re -- sur --
+  re -- cti -- o -- nem mor -- tu --
+  o -- rum,
+
+  et vi -- %76
+  tam ven -- tu -- ri
+  sae -- cu -- li, a --
+  men, ven --
+  tu -- ri sae -- cu -- li, %80
+  a -- _
+  _ men,
+  a -- _ _
+  _ _ _ _
+  _ %85
+  men, a --
+  _ _ _ _
+  _ _
+  men, a --
+  _ _ %90
+  men, ven --
+  tu -- ri sae -- cu -- li,
+  a -- _ _
+  _ _
+  men, ven -- %95
+  tu -- ri sae -- cu -- li,
+  a --
+  men,
+  et vi --
+  tam ven -- tu -- ri %100
+  sae -- cu -- li, a -- _
+  _ men, ven --
+  tu -- ri sae -- cu -- li,
+  a -- _
+  _ %105
+  _ _ _
+  men, et vi --
+  tam ven -- tu -- ri
+  sae -- cu -- li,
+  a -- %110
+
+  men. %113 finis
+}
