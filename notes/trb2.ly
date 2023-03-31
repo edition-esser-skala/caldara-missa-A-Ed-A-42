@@ -204,3 +204,34 @@ CredoTromboneII = {
     e\breve*1/2\fermata \bar "|." %113 finis
   }
 }
+
+SanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoSanctus
+    r2 c4.\fE c8
+    a g g4 r2
+    e'4 d c8 d d4
+    r2 e8 c4 g8
+    a4 a f' f \noBreak %5
+    e4. e8 d4 r
+    \tempoPleni r8 h a4 h g8 a \noBreak
+    g d r4 r8 h' d h
+    c16 d e8 c d c g r4
+    r c8 a16 a h8 c16 d e4 %10
+    e8 r r4 r e
+    d8. d16 d4 e8. e16 e4
+    e d r16 g, a h c8 f16 f \noBreak
+    f8 e16 e d4 e2\fermata \bar "||"
+    \tempoOsanna R1*10 %24
+    r2 r4 r8 f\fE %25
+    d d r e c c h c
+    c4 h r c8 c
+    c4 c8 c a d g,4
+    g2 g
+    g4 r d'8 e d4 \noBreak %30
+    e r r2\fermata \bar "||"
+    \key f \major \tempoBenedictus R1*27 %58
+    R1\fermata \markOsannaUtSupra \bar "||" %59 finis
+  }
+}

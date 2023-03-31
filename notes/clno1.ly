@@ -203,3 +203,38 @@ CredoClarinoI = {
     e\breve*1/2\fermata \bar "|." %113 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    \pa \once \tieDashed g''2~\fE g8 f4 e8
+    f4 e r2
+    e4 d8 g4 fis8 g4 \pd
+    r8 d d4 e8 g g4
+    a r \pa r8 a g f \noBreak %5
+    e4. e8 d d g,4
+    \tempoPleni R1 \noBreak
+    r8 d' g,4 r8 d'^\critnote g g \pd
+    e g16 f e8 d e4 \pa r8 g
+    c,4 r r2 \pd %10
+    r8 \pa e, e4 \pd r r8 e'
+    f4 r8 c e g e e
+    e4 d e4. \pa a8 \noBreak
+    g g \pd g4 g2\fermata \bar "||"
+    \tempoOsanna R1*5 %19
+    \pa r4 r8 g\fE e e f g %20
+    \appoggiatura g8 a4^\critnote g8 \pd g f8.[ g16 e8. f16]
+    d4 r r8 e e4
+    e r r2
+    R1*2 %25
+    \pa R1
+    r4 r8 g\fE e e f g
+    \appoggiatura g a4 g8 g f8.[ g16 e8. f16] \pd
+    d8 d e e d e d4\trill
+    \pa e8 g g g g16 f e d d4\trill \pd \noBreak %30
+    c r r2\fermata \bar "||"
+    \tempoBenedictus R1*27 %58
+    R1\fermata \markOsannaUtSupra \bar "||" %59 finis
+  }
+}

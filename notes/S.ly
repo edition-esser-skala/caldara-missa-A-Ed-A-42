@@ -490,19 +490,72 @@ CredoSopranoLyrics = \lyricmode {
   men. %113 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    r2 \mvTr a'4(\fE^\tuttiE g8) c
+    c([ h)] c4 d2~
+    d8 c4 h8 c4 h
+    d8( h4) g8 c4 c
+    c8( a4) c8 d d16 d d8 d \noBreak %5
+    d([ g,] c8.) c16 h4 r
+    \tempoPleni r8 d d d h16([ c)] d4 fis,8 \noBreak
+    g g r4 r8 d' d d
+    e16([ f!)] g4 h,8 c c r4
+    c4. d16 d d8 c16 c h4 %10
+    a8 r r4 e'16[ f d e] c[ d h c]
+    d[ e c d] h[ c a h] c8 c16 c c8 c16 c
+    c4 h c4. d16 d \noBreak
+    h8 c16 c c8([ h)] c2\fermata \bar "||"
+    \tempoOsanna R1*2 %16
+    r2 r4 r8 \mvTr d\pE^\solo
+    h h c d \appoggiatura d e4 d8 d
+    c8.[( d16 h8. c16] a8) d h c
+    c4( h)\trill c r %20
+    R1*4
+    r4 r8 \mvTr e\fE^\tuttiE c c r d %25
+    h h r c a a f' e
+    e4 d r c8 g'
+    g([ f)] e e e( d4 c8
+    h) h c c h( c4 h8)
+    c4 r h8 c c([ h)] \noBreak %30
+    c4 r r2\fermata \bar "||"
+    \key f \major \tempoBenedictus R1*27 %58
+    R1\fermata \markOsannaUtSupra \bar "||" %59 finis
+  }
+}
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  _ ctus, san -- ctus
+  san -- ctus, san -- ctus,
+  san -- ctus Do -- mi -- nus De -- us %5
+  Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li et
+  ter -- ra, ple -- ni sunt
+  coe -- li et ter -- ra
+  glo -- ri -- a, glo -- ri -- a tu -- %10
+  a, glo -- _
+  _ _ _ ri -- a, glo -- ri -- a
+  tu -- a, glo -- ri -- a,
+  glo -- ri -- a tu -- a.
 
+  O -- %17
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex --
+  cel -- sis. %20
 
-% ## Benedictus
+  O -- san -- na, o -- %25
+  san -- na, o -- san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis, o -- san --
+  na in ex -- cel --
+  sis, in ex -- cel -- %30
+  sis. %31 finis
+}
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

@@ -285,3 +285,66 @@ CredoViolinoII = {
     g\breve*1/2\fermata \bar "|." %113 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    r16 e\fE d f e c e g a4 g8 c~
+    c h c4 r16 h a c h h, h' d
+    e8 c4 h8 c4 h
+    d8 h4 g8 c16 g' f g e g, c8~
+    c a4 c8 d16 f e f d8 d~ \noBreak %5
+    d g, c8. c16 h h a c h h, a c
+    \tempoPleni h8 d' d d h16 c d4 fis,8 \noBreak
+    g16 a32 h c d e fis g16 h, a c h8 d d g
+    e16 f g4 h,8 c16 h c d e e, d f
+    e8 c'4 d c8 h4 %10
+    a16 a gis h a c, h d e' f d e c d h c
+    d e c d h c a h c8 g'16 e~ e8 c
+    c4 h r16 g a h c8 d \noBreak
+    h c4 h8 c2\fermata \bar "||"
+    \tempoOsanna R1*5 %19
+    r2 r4 r8 c\fE %20
+    c,4 r8 c d h c e
+    g d'16. e32 d16. e32 d16. e32 c16 .d32 c16. d32 h4
+    a r r2
+    R1
+    r4 r8 e'\fE c c r d %25
+    h h r c a a h c
+    c4 h r c8 g'~
+    g f e e4 d c8
+    h d g, c h c4 h8
+    c e,16. f32 e16. f32 e16. f32 d8 e d4 \noBreak %30
+    e r r2\fermata \bar "||"
+    \key f \major \tempoBenedictus
+      a,16\fE c b d c f d g \appoggiatura f8 e8. d16 c4 \noBreak
+    e16 g f a g b a c b8.\trill a32 b a4
+    r16 d c d e, g f a r h a h g' c, c h
+    g' c, c b a b e, f d'8 b, a g %35
+    r16 f' e f b d g, c a f' d b \appoggiatura a8 g4\trill
+    f r r16 f\pE e f b d g, c
+    \appoggiatura b8 a4^\critnote r r2
+    R1
+    r2 e16\fE g f a g c a d %40
+    \appoggiatura c8 h8. a16 g4 h16 d c e d f e g
+    f8.\trill e32 f e4 a8 f, e d
+    r16 c' h c f a d, f^\critnote h, g' e c d4\trill
+    c r r16 e\pE d e f a d, f
+    e4 r r2 %45
+    r8 d, e16 f e f \appoggiatura e8 d4 r
+    r2 f16\fE a g b a d b' d,
+    \appoggiatura d cis8. h16 a4 r8 f16\pE g a b g a
+    b8 c d d, r e16 f g a f g
+    a8 c f,4 r2 %50
+    r16 h\f a h g' c, c h g' c, c b a c e, f
+    d'8 b,\pE a g r16 f' e f b d g, c
+    a c e, g f8 r r2
+    a,16\fE c b d c f d g \appoggiatura f e8.^\critnote d16 c4
+    e16 g f a g b a c b8.\trill a32 b a4 %55
+    r16 d c d e, g f a r h a h g' c, c h
+    g' c, c b a c e, f d'8 b, a g
+    r16 f' e f b d g, c a f' d b \appoggiatura a8 g4\trill
+    f r r2\fermata \markOsannaUtSupra \bar "||" %59 finis
+  }
+}
