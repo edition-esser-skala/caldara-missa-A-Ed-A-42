@@ -232,3 +232,82 @@ SanctusTromboneI = {
     R1\fermata \markOsannaUtSupra \bar "||" %59 finis
   }
 }
+
+AgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoAgnus
+    g'2.\fE g4
+    g f f e
+    r8 f f f a2
+    g4 r r2
+    R1*3 %7
+    r4 g2\fE g4
+    gis a fis g
+    r8 g g g g2 %10
+    fis4 r r2
+    R1*4 %15
+    r4 g!2\fE g4
+    g f8 f f4 e
+    r8 a a a a2 \noBreak
+    g1\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection
+      g2 e \noBreak %20
+    a f
+    d g
+    e4 d c2
+    r g'~
+    g4 e a g %25
+    fis e d fis
+    g d g2
+    d e
+    e^\critnote f
+    f d4 \once \tieDashed g~ %30
+    g f \once \tieDashed e2~
+    e d
+    g e
+    d r
+    R1 %35
+    g2 e
+    a f
+    d g
+    e4 d c2
+    g'2. d4 %40
+    g2 e
+    a \once \tieDashed g~
+    g fis
+    g d~
+    d h %45
+    e c
+    a d
+    h4 a g2
+    c4 d \once \tieDashed e2~
+    e d~ %50
+    d4 c h d
+    e d c2
+    R1
+    f2 d
+    g e %55
+    c f
+    d4 c \once \tieDashed b2~
+    b a
+    g1
+    a2 r %60
+    R1^\critnote
+    g'2 e
+    a f
+    d g
+    e4 d c2 %65
+    r d
+    g e
+    a4 g f a
+    \once \tieDashed g2~ g4 a
+    g f e g %70
+    f g a2
+    g g
+    g g
+    g1~
+    g %75
+    g\breve*1/2\fermata \bar "|." %76 finis
+  }
+}

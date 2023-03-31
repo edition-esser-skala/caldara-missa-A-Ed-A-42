@@ -235,3 +235,69 @@ SanctusTromboneII = {
     R1\fermata \markOsannaUtSupra \bar "||" %59 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoAgnus
+    e2.\fE e4
+    e a,8 d d g, g4
+    r8 a a a d2
+    d4 r r2
+    R1*3 %7
+    r4 h2\fE h4
+    h c8 c d4 d
+    r8 c c c a2 %10
+    a4 r r2
+    R1*4 %15
+    r4 c2\fE c4
+    a a8 a g4 g
+    r8 c c^\critnote c d2 \noBreak
+    d1\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection R1*12 %31
+    c2 h
+    e c
+    a d
+    h4 a g2 %35
+    r c2~
+    c4 a d c
+    h a g h
+    c g c2
+    e d %40
+    h c
+    d d^\critnote
+    d1
+    d2 d4 c
+    h2 r %45
+    R1*2
+    r2 \once \tieDashed g~
+    g e
+    a f %50
+    d g
+    g4 f e2
+    r \once \tieDashed a~
+    a g
+    c, g' %55
+    a1
+    b2 d4 d
+    c2 c
+    c1
+    c2 r %60
+    R1
+    r2 c~
+    c4 a d c
+    h! a g h
+    c d e d %65
+    c2 g4 a
+    h2 c
+    d1~
+    d4 c h2
+    c c %70
+    a f'
+    d e
+    d e
+    d1~
+    d %75
+    e\breve*1/2\fermata \bar "|." %76 finis
+  }
+}

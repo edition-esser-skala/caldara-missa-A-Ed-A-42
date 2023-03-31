@@ -492,3 +492,141 @@ SanctusBassoLyrics = \lyricmode {
   sis, in ex -- cel -- %30
   sis.
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr c2.\fE^\tutti b4
+    a d8 d g,4 c
+    r8 f f f fis2
+    g4 r r2
+    R1*3 %7
+    r4 \mvTr g2\fE^\tuttiE f!4
+    e a8 a d,4 g
+    r8 c, c c cis2 %10
+    d4 r r2
+    R1*4 %15
+    r4 \mvTr c2\fE^\tuttiE c4
+    cis d8 d h4 c
+    r8 f f f fis2 \noBreak
+    g1\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection R1*8 %27
+    g2 e
+    a f
+    d g %30
+    e4( d) c2
+    r g'~
+    g4 e a g
+    fis e d fis
+    g d g2 %35
+    e e
+    f! f
+    g1
+    c,2 e~
+    e4 f g2~ %40
+    g4 e a g
+    fis2 g
+    d1
+    g,2 h4( a)
+    g2 g'4 g %45
+    c,2. c4
+    d1
+    g,2 r
+    r c~
+    c4 a d c %50
+    h a g h
+    c2 r
+    r f
+    d g
+    e c %55
+    f d4( c)
+    b2 g'4 f
+    e2 f
+    c1
+    f,2 r %60
+    f'4 d g f
+    e d c2
+    f1
+    g
+    R %65
+    r2 g~
+    g4 e a g
+    f e d f
+    g2. f4
+    e d c e %70
+    f1
+    f2 e4 f
+    g2 c,
+    g1~
+    g %75
+    c\breve*1/2\fermata \bar "|." %76 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui tol -- lis
+  pec -- ca -- ta mun --
+  di:
+
+  A -- gnus %8
+  De -- i, qui tol -- lis
+  pec -- ca -- ta mun -- %10
+  di:
+
+  A -- gnus %16
+  De -- i, qui tol -- lis
+  pec -- ca -- ta mun --
+  di:
+
+  Do -- na, %28
+  do -- na
+  no -- bis %30
+  pa -- cem,
+  pa --
+  _ _ _
+  _ _ _ _
+  _ _ cem, %35
+  do -- na
+  no -- bis
+  pa --
+  cem, pa --
+  _ _ %40
+  _ _ _
+  _ _
+  _
+  cem, pa --
+  cem, do -- na %45
+  no -- bis
+  pa --
+  cem,
+  pa --
+  _ _ _ %50
+  _ _ _ _
+  cem,
+  do --
+  na no --
+  bis pa -- %55
+  cem, pa --
+  cem, do -- na
+  no -- bis
+  pa --
+  cem, %60
+  pa -- _ _ _
+  _ _ cem,
+  pa --
+  cem,
+  %65
+  pa --
+  _ _ _
+  _ _ _ _
+  _ _
+  _ _ _ _ %70
+  _
+  cem, do -- na
+  no -- bis
+  pa --
+  %75
+  cem. %76 finis
+}

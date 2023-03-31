@@ -347,3 +347,79 @@ SanctusViolinoI = {
     f r r2\fermata \markOsannaUtSupra \bar "||" %59 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    e'1~\fE
+    e4 d2 c4
+    c8 c c c c2
+    h8 g' g g g4 r
+    R1*2 %6
+    r8 d,\pE g4. fis16 e fis4
+    g d'2\fE d4~
+    d c2 h4
+    e8 e e e e2 %10
+    d8 fis fis fis g4 r
+    R1*3
+    r8 h,\p a gis a4. gis16 a %15
+    gis4 e'2\f e4~
+    e d2 c4
+    a'8 a a a a4. d,8 \noBreak
+    d1\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection R1*4 %23
+    c2 h
+    e c %25
+    a d
+    h4 a g2
+    r c~
+    c4 a d c
+    h a g h %30
+    c g c2
+    r g
+    h a~
+    a a
+    g4 a h2~ %35
+    h c~
+    c a
+    g r
+    r c~
+    c h %40
+    e c~
+    c h4 c
+    a1
+    h2 r
+    r g~ %45
+    g4 e a g
+    fis e d fis
+    g d g2
+    r g4 g
+    a2 a %50
+    g g
+    R1
+    c2 a
+    d b
+    g c %55
+    a4 g f2
+    r g~
+    g f
+    f e
+    f c'4 a %60
+    d c h! a
+    g2 r
+    R1*2
+    r2 c~ %65
+    c h
+    e c
+    a d
+    h4 a g2
+    r c~ %70
+    c4 a d c
+    h2 c
+    h c~
+    c h4 a
+    h1 %75
+    c\breve*1/2\fermata \bar "|." %76 finis
+  }
+}

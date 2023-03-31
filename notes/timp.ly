@@ -170,3 +170,46 @@ SanctusTimpani = {
     R1\fermata \markOsannaUtSupra \bar "||" %59 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    c2\fE r
+    r g4 c
+    r2 r8 c c c
+    g g g g c4 r
+    R1*5 %9
+    c2\fE r %10
+    R1*5 %15
+    r4 c2\fE c4
+    r2 g4 c
+    r2 r8 c c c \noBreak
+    g1\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection R1*8 %27
+    g2 c
+    R1
+    r2 g %30
+    c1
+    R1*6 %37
+    g2 g
+    c r
+    R1*21 %60
+    r2 g
+    c c
+    R1
+    g2 g
+    c1~ %65
+    c2 g
+    g r
+    R1
+    g2. g4
+    c2 c %70
+    R1
+    r2 c
+    g c
+    g1~
+    g %75
+    c\breve*1/2\fermata \bar "|." %76 finis
+  }
+}

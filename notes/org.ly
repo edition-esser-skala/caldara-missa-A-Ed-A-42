@@ -752,3 +752,173 @@ SanctusBassFigures = \figuremode {
   <[6]>4. <6>8 r4 \bo <[6] 4>8 \bc <[5] 3>
   r1 %59 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    \mvTr c2.\fE-\tutti b4
+    a d g, c
+    f,8 f' f f fis2
+    g8 g g g \mvTr c,4\pE-\solo c'
+    d, fis g h, %5
+    c g' d2
+    g,4 r8 e' d4 d,
+    g \mvTr g'2\fE-\tutti f!4
+    e a d, g
+    c8 c, c c cis2 %10
+    d8 d d d \mvTr g,4\pE-\solo g'
+    a, cis d fis
+    g h, c e
+    f8 d e4 f2
+    e4 r8 e f,4 f' %15
+    e \mvTr c\fE-\tutti c c
+    cis d h c
+    f,8 f' f f fis2 \noBreak
+    g1\fermata \bar "||"
+    \clef treble \time 2/2 \tempoDona \newSpacingSection
+      g'2 e \noBreak %20
+    a f
+    d g
+    e4 d c2
+    << {
+      c' h
+      e c %25
+      a d
+      h4 a g2
+    } \\ {
+      r g~
+      g4 e a g %25
+      fis e d fis
+      g d g2
+    } >>
+    \clef bass g, e
+    a f
+    d g %30
+    e4 d c2
+    r g'~
+    g4 e a g
+    fis e d fis
+    g d g2 %35
+    e1
+    f!
+    g
+    c,2 e~
+    e4 f g2~ %40
+    g4 e a g
+    fis2 g
+    d1
+    g,2 h4 a
+    g2 g' %45
+    c,1
+    d
+    g,2 g'4 f!
+    e2 c~
+    c4 a d c %50
+    h a g h
+    c2. b4
+    a2 f'
+    d g
+    e c %55
+    f d4 c
+    b2 g'4 f
+    e2 f
+    c1
+    f,2 r %60
+    f'4 d g f
+    e d c2
+    f1
+    g
+    c,2. d4 %65
+    e f g2~
+    g4 e a g
+    f e d f
+    g2. f4
+    e d c e %70
+    f1~
+    f2 e4 f
+    g2 c,
+    g1~
+    g %75
+    c\breve*1/2\fermata \bar "|." %76 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r2. <2>4
+  <7 _+>2 <7>
+  r <6 5>
+  <8>8 <7!> r2 <5>8 <6>
+  <9 _+>8 <[8 \t]> <6> <5> <9> <8> <6> <5!> %5
+  <9> <8>4. <4>4 <_+>
+  r4. <6\\>8 <4>4 <_+>
+  r2. <2>4
+  <7 _+>2 q
+  r <6 5> %10
+  \bo <8 [_+]>8 \bc <7! [\t]> r2 <5>8 <6>
+  <9 _+> <8 \t> <6> <5> <9 _+> <8 \t> <6> <5!>
+  <9> <8> <6> <5!> <9> <8> <6> <5->
+  <9> <[5]> <9 _+> <8 \t> <7>4 <6>
+  <_+>2 <7>4 <6> %15
+  <_+> <[5!]>2.
+  <6 5>2 q
+  r q
+  r1
+  r %20
+  r
+  r
+  r
+  r
+  r %25
+  r
+  r
+  r2 <6>
+  r q
+  q1 %30
+  <[6]>
+  r
+  <6>
+  q
+  r %35
+  <5>2 <6>
+  <5> <6>
+  r1
+  r2 <6>
+  r1 %40
+  <[6]>
+  <6 5>2 <[6]>
+  <4> <_+>
+  r1
+  r %45
+  <5>2 <6>
+  <_+>1
+  r
+  <[6]>
+  <6>2 <_!> %50
+  <6>1
+  r
+  <6>
+  r2 <_->
+  <6>1 %55
+  r2 <5>
+  r <_->
+  <6 5->1
+  <4>2 <3>
+  r1 %60
+  <6>2 <_!>
+  <[6]>1
+  <5>2 <6>
+  <5> <8>
+  r1 %65
+  <[6]>
+  <6>
+  q
+  r
+  <[6]> %70
+  <5>2 <6>
+  <2> <[6]>
+  r1
+  <4>2 \bo <[3]>4 \bc <[2]>
+  <3>1 %75
+  r %76 finis
+}

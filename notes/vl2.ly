@@ -348,3 +348,84 @@ SanctusViolinoII = {
     f r r2\fermata \markOsannaUtSupra \bar "||" %59 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    c'2.\fE c4
+    cis d h c
+    a8 a a a a2
+    d,8 h' h h c4 r
+    R1*2 %6
+    r8 h,\pE a g a4. g16 a
+    g4 \mvTr h'2\fE^\critnote h4~
+    h a2 g4
+    g8 g g g g2 %10
+    fis8 c'! c c h4 r
+    R1*3
+    r8 h,\p e4. d16 c d4 %15
+    e c'2\f c4
+    a2 g
+    c8 c c c c2 \noBreak
+    h1\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection
+      g2 e \noBreak %20
+    a f
+    d g
+    e4 d c2
+    r g'~
+    g4 e a g %25
+    fis e d fis
+    g d g2
+    d e
+    e f
+    f d4 g~ %30
+    g f e2~
+    e d
+    g e
+    d r
+    R1 %35
+    g2 e
+    a f
+    d g
+    e4 d c2
+    g'2. d4 %40
+    g2 e
+    a g~
+    g fis
+    g \once \tieDashed d~
+    d h %45
+    e c
+    a d
+    h4 a g2
+    c4 d e2~
+    e d~ %50
+    d4 c h d
+    e d c2
+    R1
+    f2 d
+    g e %55
+    c f
+    d4 c b2~
+    b a
+    g1
+    a2 r %60
+    R1
+    g'2 e
+    a f
+    d g
+    e4 d c2 %65
+    r d
+    g e
+    a4 g f a
+    g2. a4
+    g f e g %70
+    f g a2
+    g g
+    g g
+    g1~
+    g %75
+    g\breve*1/2\fermata \bar "|." %76 finis
+  }
+}
