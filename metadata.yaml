@@ -1,7 +1,7 @@
 composer:
   last: Caldara
   first: Antonio
-title: Missa Laudate eum omnes angeli eus
+title: Missa Laudate eum omnes angeli eius
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
 license: cc-by-sa-4.0
@@ -13,6 +13,6 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/691.html
     license: public domain
     principal: true
-imslp:
+imslp: Mass_in_C_major_'Laudate_eum_omnes_angeli_eius'_(Caldara,_Antonio)
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
